@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Render = () => {
   return (
@@ -7,10 +7,14 @@ const Render = () => {
       <input type="text" />
       <button>Click1</button>
       <button>Click2</button>
-      <p>Udemy</p>
+      <p>UUUUUU</p>
       <span data-testid="copyright">@React</span>
     </div>
-  );
-};
+  )
+}
 
-export default Render;
+Render.propTypes = {
+
+}
+
+export default Render
